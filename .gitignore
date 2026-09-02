@@ -1,0 +1,10 @@
+# Compiled MQL5/MQL4 files
+*.ex4
+*.ex5
+
+# Log files
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
