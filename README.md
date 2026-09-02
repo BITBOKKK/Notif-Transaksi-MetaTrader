@@ -36,3 +36,6 @@ Detail lengkap: lihat [SETUP_GUIDE.md](SETUP_GUIDE.md).
 
 - MetaTrader 5 (Windows / VPS)
 - Akun Telegram dengan akses BotFather
+
+- Contoh Notif -
+<img width="612" height="800" alt="image" src="https://github.com/user-attachments/assets/6329fa34-6501-4711-b8ff-2ce6e060434f" />
