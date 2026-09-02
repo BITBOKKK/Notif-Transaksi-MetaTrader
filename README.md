@@ -14,8 +14,10 @@ Expert Advisor (EA) MetaTrader 5 yang mengirim notifikasi real-time ke Telegram 
 
 | File | Deskripsi |
 |------|-----------|
-| `MT5_Telegram_Notifier.mq5` | Versi lengkap — input toggle, handling error, escaping JSON |
-| `MT5_Notif_Telegram.mq5` | Versi sederhana, minimalis |
+| `MT5_Telegram_Notifier.mq5` | Versi lengkap (disarankan) — input toggle BUY/SELL, handling error lengkap (termasuk peringatan error 4060 WebRequest), escaping JSON, deteksi ulang SL/TP dari posisi |
+| `MT5_Notif_Telegram.mq5` | Versi sederhana/minimalis — hanya deteksi entry baru dan kirim pesan, tanpa toggle dan handling error lanjutan |
+
+Kedua file adalah EA dengan fungsi sama (kirim notifikasi trade ke Telegram), hanya beda tingkat kelengkapan. Saat instalasi, **gunakan salah satu saja** — disarankan `MT5_Telegram_Notifier.mq5`.
 | `SETUP_GUIDE.md` | Panduan setup lengkap (BotFather, Chat ID, WebRequest) |
 | `mt5_telegram_bot_prd.md` | Dokumen Product Requirements |
 
